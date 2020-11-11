@@ -85,7 +85,7 @@ if __name__ == '__main__':
     # print(sorted_records)
     output_param = sys.argv[2]
 
-    # Using the second parameter to carete an output csv file
+    # Using the second parameter to create an output csv file
     file = open(output_param,'w+')
     for row in sorted_records:
         file.write("{},{},{},{},{},{}\n".format(row[0], row[1], row[2], row[3], row[4], row[5]))
