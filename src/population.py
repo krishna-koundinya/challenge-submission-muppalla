@@ -30,6 +30,7 @@ if __name__ == '__main__':
     for item in data_dict:
         data_dict[item][2] = len(set(data_dict[item][2]))
         data_dict[item][5] = round(data_dict[item][5] / data_dict[item][2], 2)
+        data_dict[item][1] = "\""+data_dict[item][1]+"\""
 
     unsorted_records = []
     for element in data_dict:
