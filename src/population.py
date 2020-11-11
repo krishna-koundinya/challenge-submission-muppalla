@@ -66,7 +66,7 @@ if __name__ == '__main__':
                     else:
                         data_dict[starting[7]][5] += 0
 
-    # Cosing the data file after reading all the records
+    # Closing the data file after reading all the records
     data.close()
 
     # Modifying the data to create desired output with average population percent change
