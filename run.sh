@@ -1,6 +1,6 @@
 #!/bin/bash
 #
 # Use this shell script to compile (if necessary) your code and then execute it. Below is an example of what might be found in this file if your program was written in Python 3.7. Remember that in order to execute the following command, you need to uncomment the line
-# python3.8 ./src/population.py ./input/report.csv ./output/report.csv
+python3.8 ./src/population.py ./input/census_sample.csv ./output/report.csv
 python3.8 ./src/population.py ./insight_testsuite/tests/test1/input/census_sample.csv ./insight_testsuite/tests/test1/output/report.csv
 python3.8 ./src/population.py ./insight_testsuite/tests/your-own-test_1/input/sample2.csv ./insight_testsuite/tests/your-own-test_1/output/report2.csv
